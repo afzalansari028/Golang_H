@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "..\\..\\GolangBasic"
+        },
+        {
+            "path": "..\\..\\GolangAdvance"
+        },
+        {
+            "path": "..\\..\\Go-Web"
+        },
+        {
+            "path": "..\\..\\23mongoAPI"
+        }
+    ]
+}
