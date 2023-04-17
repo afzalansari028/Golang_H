@@ -161,5 +161,21 @@ func deleteOneCourse(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	w.WriteHeader(http.StatusNotFound)
-
 }
+//----------------code for update-----------
+// func UpdateOneEmployee(c *gin.Context) {
+// 	fmt.Println("Update function called")
+// 	var newEmployee Employee
+// 	jsonBytes, _ := ioutil.ReadAll(c.Request.Body)
+// 	json.Unmarshal(jsonBytes, &newEmployee)
+
+// 	fmt.Println("req emp", newEmployee)
+// 	for i := range employees {
+// 		if employees[i].Id == newEmployee.Id {
+// 			fmt.Println("id matched")
+// 			employees[i].Name = newEmployee.Name
+// 			employees[i].Age = newEmployee.Age
+// 		}
+// 	}
+// 	c.JSON(200, "Updated successfully")
+// }
