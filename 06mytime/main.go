@@ -12,7 +12,8 @@ func main() {
 	presentTime := time.Now()
 	fmt.Println(presentTime)
 
-	fmt.Println(presentTime.Format("01-02-2006"))
+	fmt.Println(presentTime.Format("02-01-2006"))  // DD-MM-YYYY
+	fmt.Println(presentTime.Format("01-02-2006"))  // MM-DD-YYYY
 	fmt.Println(presentTime.Format("01-02-2006 Monday"))
 	fmt.Println(presentTime.Format("02-01-2006 Monday"))
 	fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday"))
